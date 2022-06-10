@@ -200,7 +200,8 @@ footer ul li a{
     margin-right: 156px;
 }
 .playlist:hover{
-    background-color: #3f3c3c;
+    background-color: rgb(236, 233, 233);
+    box-shadow: 3px 5px 10px rgb(204, 184, 184);
 }
 .pl1{
     padding-bottom: 50px;
