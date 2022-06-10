@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    height: 94px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+header h1{
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    text-indent: -999999999px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    padding: 10px 10px;
+}
+
+
+header nav{
+    padding-top: 36px;
+    padding-left: 168px;
+}
+header ul{
+   display: flex; 
+} 
+header ul li{
+    margin-right: 20px;
+}
+header ul li a{
+    color: rgb(243, 234, 234);
+    padding: 5px 10px;
+    font-size: 18px;
+    position: relative;
+}
+header ul li a::before{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background-color: #bd2020;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 3s;
+}
+header ul li a:hover:before{
+    width: 100%;
+}
+main h2{
+    padding-left: 108px;
+    padding-top: 50px;
+    color: black;
+    font-size: 24px;
+}
+
+.social{
+    width: 50px;
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.facebook{
+    background-image: url(../img/fb.png);
+    height: 50px;
+    width: 50px;
+    background-size: 100%;
+}
+.facebook:hover{
+    background-image: url(../img/fb2.png)
+}
+.facebook a{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.inst{
+    background-image: url(../img/inst.png);
+    height: 50px;
+    width: 50px;
+    background-size: 100%;
+}
+.inst:hover{
+    background-image: url(../img/inst2.png);
+}
+.inst a{
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.mshobeli{
+    width: 100%;
+    display: flex;
+    padding-left: 108px;
+    padding-top: 50px;
+}
+.music{
+    width: 290px;
+    height: 244px;
+    border: solid #000000;
+    margin-right: 108px;
+    position: relative;
+}
+.like{
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/like.png);
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: 100%;
+    right: 0;
+    position: absolute;
+}
+.like:hover{
+    background-image: url(../img/like\ 2.png);
+}
+.sound{
+    width: 100%;
+    height: 70px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    top: 70px;
+    background-size: 25%;
+    position: absolute;
+}
+.track{
+    color: #000000;
+    font-size: 18px;
+    margin-top: 146px;
+}
+.artist{
+    margin-top:16px;
+    color: #000000;
+    font-size: 14px;
+}
+.artist::after{
+    content: "...";
+} 
+
+footer{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 250px;
+    margin-top: 100px;
+} 
+footer h3{
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    margin: 26px auto;
+    padding: 20px 20px;
+}
+footer h3 a{
+    display: block;
+    width: 70px;
+    padding: 50px 50px;
+}
+footer nav{
+    text-align: center;
+}
+footer ul li{
+    padding-top: 3px;
+}
+footer ul li a{
+    color: rgb(243, 234, 234);
+    font-size: 18px;
+    margin: 26px auto;
+}
+.reserved{
+    margin-top:38px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.mshobeli1{
+    width: 100%;
+    display: flex;
+    padding-left: 108px;
+    margin-top: 50px;
+}
+.sxva{
+    margin-right: 156px;
+}
+.playlist:hover{
+    background-color: #3f3c3c;
+}
+.pl1{
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+.name{
+    font-size: 18px;
+}
+.mshobeli2{
+    width: 100%;
+    display: flex;
+    padding-left: 108px;
+    margin-top: 50px;
+}
+.notebi{
+    width: 20%;
+    height: 65px;
+    background-image: url(../img/sound.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    margin: 50px auto;
+}
+.sxva2{
+    padding-right: 44px;
+}
+.thanks{
+    padding-top: 100px;
+}
+.thankyou{
+    font-size: 36px;
+    text-align: center;
+}
